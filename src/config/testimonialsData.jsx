@@ -10,7 +10,7 @@ const testimonialsData = [
   {
     name: "Gautam Sahani",
     feedback:
-      "The classes were amazing! I improved my English skills significantly. The classes were amazing! I improved my English skills significantly. The classes were amazing! I improved my English skills significantly.",
+      "It was amazing with this classes ma'am with both of the language you thought english and gujarati a good part about gujarati was it was free for me Thank You soo much Ma'am",
     image: gautam,
     rating: 5,
   },
@@ -22,44 +22,44 @@ const testimonialsData = [
     rating: 5,
   },
   {
-    name: "Mike Johnson",
+    name: "Deep Rajeshbhai Katarmal ",
     feedback:
-      "Highly recommend these classes for anyone looking to improve their English.",
+      "It was my best experience ever in this classes with amazing environment",
     image: deep,
-    rating: 3,
+    rating: 5 ,
   },
   {
-    name: "Mike Johnson",
+    name: "Khushi J. Bhandari",
     feedback:
-      "Highly recommend these classes for anyone looking to improve their English.",
+      "Very good experience in Modern English class. ",
     image: khushi,
-    rating: 3,
+    rating: 5,
   },
   {
-    name: "Mike Johnson",
+    name: "Sagarkumar Prafulbhi Tandel ",
     feedback:
-      "Highly recommend these classes for anyone looking to improve their English.",
+      "The way of teaching is awesome and loved it the teaching method",
     image: sagar,
-    rating: 3,
+    rating: 5,
   },
   {
-    name: "Mike Johnson",
+    name: "Shivani Bhanushali ",
     feedback:
-      "Highly recommend these classes for anyone looking to improve their English.",
+      "I was enrolled in 2017 for Advance English Course and worth it . It was a really good experience with you mam,Today wherever I'm standing there is a big role of you in that..... You have played a very precious role in my career ",
     image: shivani,
-    rating: 3,
+    rating: 5,
   },
   {
-    name: "Mike Johnson",
+    name: "Patel Krisha Ashvinbhai ",
     feedback:
-      "Highly recommend these classes for anyone looking to improve their English.",
+      "I was batch of 2022 and it was Very good experience with you mam and teaching method.",
     image: krisha,
-    rating: 3,
+    rating: 5,
   },
   {
-    name: "Mike Johnson",
+    name: "Patel Preyash Satishbhai ",
     feedback:
-      "Highly recommend these classes for anyone looking to improve their English.",
+      "Good 👍",
     image: preyash,
     rating: 5,
   },
