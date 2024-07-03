@@ -1,19 +1,20 @@
+import React from 'react';
+import isValidPhoneNumber from '../utils/validation';
+
 const sendWhatsAppMessage = (phoneNumber, message) => {
+  if (!isValidPhoneNumber(phoneNumber)) {
+    console.error("Invalid phone number");
+    return;
+  }
   const url = `https://wa.me/${phoneNumber.replace("+", "")}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 };
 
 const handleWhatsAppMessage = () => {
-  const phoneNumber = "7046016354";
+  const phoneNumber = process.env.REACT_APP_WHATSAPP_NUMBER || "919978764266"; // Fallback to hardcoded number
   const message = "Hello! I'm interested in your English classes.";
   sendWhatsAppMessage(phoneNumber, message);
 };
-
-// const handleJoinNowClick = () => {
-//   const phoneNumber = "7046016354";
-//   const message = "I am interested in joining the Modern English classes.";
-//   sendWhatsAppMessage(phoneNumber, message);
-// };
 
 const handleEnrollNow = () => {
   const googleFormUrl = "https://forms.gle/JEaF17GSPzu1bnXcA";

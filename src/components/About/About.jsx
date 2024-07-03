@@ -58,13 +58,15 @@ const About = () => {
                   in language and communication. Over the years, I've had the
                   privilege of guiding numerous students towards mastering
                   spoken English, combining academic rigor with practical
-                  application. My teaching philosophy emphasizes personalized
-                  learning, tailored to individual needs and learning styles, to
-                  empower students in both professional and social contexts.
-                  Whether preparing for interviews, presentations, or enhancing
-                  everyday communication skills, my goal is to instill
-                  confidence and proficiency in my students, bridging linguistic
-                  barriers and fostering meaningful connections.
+                  application. I worked as an English teacher from 2007 to 2013,
+                  and after that, I founded my Modern Classes. My teaching
+                  philosophy emphasizes personalized learning, tailored to
+                  individual needs and learning styles, to empower students in
+                  both professional and social contexts. Whether preparing for
+                  interviews, presentations, or enhancing everyday communication
+                  skills, my goal is to instill confidence and proficiency in my
+                  students, bridging linguistic barriers and fostering
+                  meaningful connections.
                 </p>
 
                 <div className="flex justify-center sm:justify-start md:justify-start my-3">

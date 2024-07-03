@@ -21,11 +21,11 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-lg relative font-bold dark:bg-black dark:text-white duration-400">
-      <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-2 flex justify-between items-center ">
         <div className="flex items-center">
           <Link
             to="/"
-            className="text-2xl font-bold text-gray-800 dark:bg-black dark:text-white"
+            className="text-2xl font-bold text-white dark:bg-black dark:text-white"
           >
             <img
               src={Logo}
@@ -40,14 +40,14 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="hidden md:flex space-x-8 gap-5">
+        <div className="hidden md:flex space-x-8 gap-5 ">
           <NavLink
             to="/"
             end
             className={({ isActive }) =>
               isActive
                 ? "text-blue-600 font-semibold"
-                : "text-gray-600 hover:text-blue-600"
+                : "text-gray-600 hover:text-blue-600 dark:text-white"
             }
           >
             Home
@@ -57,7 +57,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive
                 ? "text-blue-600 font-semibold"
-                : "text-gray-600 hover:text-blue-600"
+                : "text-gray-600 hover:text-blue-600 dark:text-white"
             }
           >
             About
@@ -67,7 +67,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               isActive
                 ? "text-blue-600 font-semibold"
-                : "text-gray-600 hover:text-blue-600"
+                : "text-gray-600 hover:text-blue-600 dark:text-white"
             }
           >
             Course

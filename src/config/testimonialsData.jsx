@@ -10,7 +10,7 @@ const testimonialsData = [
   {
     name: "Gautam Sahani",
     feedback:
-      "It was amazing with this classes ma'am with both of the language you thought english and gujarati a good part about gujarati was it was free for me Thank You soo much Ma'am",
+      "It was amazing with this classes ma'am with both of the language you thaught english and gujarati a good part about gujarati was it was free for me Thank You soo much Ma'am",
     image: gautam,
     rating: 5,
   },
