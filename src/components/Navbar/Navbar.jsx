@@ -20,7 +20,7 @@ const Navbar = () => {
   const isDarkMode = theme === "dark";
 
   return (
-    <nav className="bg-white shadow-lg relative font-bold dark:bg-black dark:text-white duration-400">
+    <nav className="bg-gray-600 shadow-lg relative font-bold dark:bg-black dark:text-white duration-400">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="flex items-center">
           <Link
