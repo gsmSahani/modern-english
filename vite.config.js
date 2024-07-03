@@ -5,20 +5,19 @@ import { visualizer } from "rollup-plugin-visualizer";
 
 export default defineConfig({
   plugins: [
-    
     react(),
     viteCompression({
-      algorithm: "brotliCompress", 
+      algorithm: "brotliCompress",
     }),
     viteCompression({
-      algorithm: "gzip", 
+      algorithm: "gzip",
     }),
-    visualizer({ open: true }), 
+    visualizer({ open: true }),
   ],
-   base: '/your-repo-name/',
+  base: "/modern-english/",
   build: {
-    outDir: 'dist',
-    minify: "esbuild", 
+    outDir: "dist",
+    minify: "esbuild",
     sourcemap: false,
     rollupOptions: {
       output: {
@@ -31,9 +30,9 @@ export default defineConfig({
               .toString();
           }
         },
-        chunkFileNames: 'assets/js/[name]-[hash].js',
-        entryFileNames: 'assets/js/[name]-[hash].js',
-        assetFileNames: 'assets/[name]-[hash][extname]'
+        chunkFileNames: "assets/js/[name]-[hash].js",
+        entryFileNames: "assets/js/[name]-[hash].js",
+        assetFileNames: "assets/[name]-[hash][extname]",
       },
     },
   },
