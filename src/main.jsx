@@ -6,6 +6,8 @@ import Layout from "./pages/Layout.jsx";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ThemeProvider } from "./helper/ThemeContext.jsx";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import {
   createRoutesFromElements,
   createBrowserRouter,
