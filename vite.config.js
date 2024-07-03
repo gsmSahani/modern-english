@@ -14,7 +14,6 @@ export default defineConfig({
     }),
     visualizer({ open: true }),
   ],
- 
   build: {
     outDir: "dist",
     minify: "esbuild",
