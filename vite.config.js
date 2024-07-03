@@ -4,8 +4,8 @@ import viteCompression from "vite-plugin-compression";
 import { visualizer } from "rollup-plugin-visualizer";
 
 export default defineConfig({
-  base: '/modern-english/',
   plugins: [
+    
     react(),
     viteCompression({
       algorithm: "brotliCompress", 
@@ -15,7 +15,9 @@ export default defineConfig({
     }),
     visualizer({ open: true }), 
   ],
+   base: '/your-repo-name/',
   build: {
+    outDir: 'dist',
     minify: "esbuild", 
     sourcemap: false,
     rollupOptions: {
