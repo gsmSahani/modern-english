@@ -14,7 +14,7 @@ export default defineConfig({
     }),
     visualizer({ open: true }),
   ],
-  base: "/modern-english/",
+ 
   build: {
     outDir: "dist",
     minify: "esbuild",
