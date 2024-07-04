@@ -40,7 +40,7 @@ const About = () => {
                   <img
                     src={Profile}
                     alt="Ami Patel - English Teacher at Spoken English Coaching"
-                    className="w-full object-contain rounded-full my-4 "
+                    className="w-full object-contain rounded-full sm:my-28 md:my-16"
                   />
                 </div>
               </div>
@@ -50,23 +50,28 @@ const About = () => {
                 </h1>
 
                 <p className="text-base sm:text-lg md:text-lg lg:text-xl mt-4 px-4 sm:px-2">
-                  Welcome to my spoken English coaching center! I am passionate
-                  about teaching and have been dedicated to nurturing English
-                  fluency since 2007 at my coaching center. My journey began
-                  after graduating with a specialization in English from JP
-                  Shroff Valsad College, where I developed a strong foundation
-                  in language and communication. Over the years, I've had the
-                  privilege of guiding numerous students towards mastering
-                  spoken English, combining academic rigor with practical
-                  application. I worked as an English teacher from 2007 to 2013,
-                  and after that, I founded my Modern Classes. My teaching
-                  philosophy emphasizes personalized learning, tailored to
-                  individual needs and learning styles, to empower students in
-                  both professional and social contexts. Whether preparing for
-                  interviews, presentations, or enhancing everyday communication
-                  skills, my goal is to instill confidence and proficiency in my
-                  students, bridging linguistic barriers and fostering
-                  meaningful connections.
+                  Hey there! I'm Ami Patel, a dedicated spoken English teacher
+                  with a rich background in language education. From 2007 to
+                  2013, I worked as an English teacher, helping students develop
+                  their language skills and gain confidence. This valuable
+                  experience laid the foundation for my ongoing passion for
+                  teaching. Since 2013, I have been guiding students in Pardi
+                  Valsad, Gujarat, enhancing their English communication skills
+                  through tailored courses and personalized instruction. I
+                  graduated with a specialization in English from JP Shroff
+                  Valsad College, which has equipped me with the knowledge and
+                  skills to effectively support my students. My teaching
+                  philosophy centers around creating an engaging and supportive
+                  learning environment. I believe in encouraging students to
+                  build their confidence, improve their vocabulary, grammar, and
+                  public speaking skills. My methods are tailored to meet the
+                  unique needs of each student, ensuring they receive the best
+                  possible guidance. At Modern Spoken Classes, we offer a range
+                  of courses designed to cater to different levels of
+                  proficiency. Whether you are a beginner or looking to refine
+                  your skills, we have something for everyone. Join us and take
+                  the first step towards mastering the English language in a
+                  friendly and motivating atmosphere.
                 </p>
 
                 <div className="flex justify-center sm:justify-start md:justify-start my-3">

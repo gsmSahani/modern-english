@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import Slider from "react-slick";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
@@ -43,17 +43,7 @@ const Testimonials = () => {
     ],
   };
 
-  const [userRatings, setUserRatings] = useState(
-    testimonialsData.map((testimonial) => testimonial.rating)
-  );
-
-  const handleStarClick = (index, rating) => {
-    const newRatings = [...userRatings];
-    newRatings[index] = rating;
-    setUserRatings(newRatings);
-  };
-
-  const renderStars = useMemo(() => (rating, index) => {
+  const renderStars = useMemo(() => (rating) => {
     const fullStars = Math.floor(rating);
     const halfStar = rating - fullStars >= 0.5 ? 1 : 0;
     const emptyStars = 5 - fullStars - halfStar;
@@ -61,31 +51,16 @@ const Testimonials = () => {
     return (
       <div className="flex items-center">
         {[...Array(fullStars)].map((_, i) => (
-          <FaStar
-            key={i}
-            className="cursor-pointer text-yellow-500"
-            onClick={() => handleStarClick(index, i + 1)}
-          />
+          <FaStar key={i} className="text-yellow-500" />
         ))}
-        {halfStar === 1 && (
-          <FaStarHalfAlt
-            className="cursor-pointer text-yellow-500"
-            onClick={() => handleStarClick(index, fullStars + 0.5)}
-          />
-        )}
+        {halfStar === 1 && <FaStarHalfAlt className="text-yellow-500" />}
         {[...Array(emptyStars)].map((_, i) => (
-          <FaRegStar
-            key={i}
-            className="cursor-pointer text-gray-300"
-            onClick={() =>
-              handleStarClick(index, fullStars + halfStar + i + 0.5)
-            }
-          />
+          <FaRegStar key={i} className="text-gray-300" />
         ))}
         <span className="ml-2">{rating.toFixed(1)}</span>
       </div>
     );
-  }, [userRatings]);
+  }, []);
 
   return (
     <>
@@ -117,7 +92,7 @@ const Testimonials = () => {
                     <h3 className="text-xl font-bold mb-2">
                       {testimonial.name}
                     </h3>
-                    {renderStars(userRatings[index], index)}
+                    {renderStars(testimonial.rating)}
                     <p className="text-gray-600 overflow-hidden overflow-ellipsis max-h-32">
                       {truncateText(testimonial.feedback, 50)}
                     </p>

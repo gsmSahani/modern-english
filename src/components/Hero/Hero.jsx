@@ -14,7 +14,6 @@ const Hero = () => {
     transition: "opacity 0.3s ease",
   };
 
-
   return (
     <div className="relative flex items-center justify-center h-screen w-full">
       <img
@@ -35,6 +34,9 @@ const Hero = () => {
           feedback and engaging activities. Designed for academic, professional,
           and social contexts, they empower learners to confidently navigate
           multicultural environments with proficiency and cultural sensitivity.
+          Feel free to reach out if you have any questions or would like to know
+          more about our courses. I look forward to helping you achieve your
+          language goals!
         </p>
         <div className="flex justify-center">
           <button

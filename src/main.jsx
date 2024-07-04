@@ -6,8 +6,8 @@ import Layout from "./pages/Layout.jsx";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ThemeProvider } from "./helper/ThemeContext.jsx";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import {
   createRoutesFromElements,
   createBrowserRouter,
@@ -25,29 +25,29 @@ const Courses = lazy(() => import("./components/Courses/Courses.jsx"));
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route 
-        path="" 
+      <Route
+        path=""
         element={
           <Suspense fallback={<HomeShimmer />}>
             <Home />
           </Suspense>
-        } 
+        }
       />
-      <Route 
-        path="/about" 
+      <Route
+        path="/about"
         element={
           <Suspense fallback={<AboutShimmer />}>
             <About />
           </Suspense>
-        } 
+        }
       />
-      <Route 
-        path="/courses" 
+      <Route
+        path="/courses"
         element={
           <Suspense fallback={<CoursesShimmer />}>
             <Courses />
           </Suspense>
-        } 
+        }
       />
     </Route>
   )
@@ -83,6 +83,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <ThemeProvider>
         <HelmetProvider>
           <RouterProvider router={router} />
+          <Analytics id="prj_OZ5UdZt74yAxxMO0IT35FpEmCyvw" />
+          <SpeedInsights />
         </HelmetProvider>
       </ThemeProvider>
     </ErrorBoundary>

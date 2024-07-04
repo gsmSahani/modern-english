@@ -5,6 +5,21 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      keyframes: {
+        ring: {
+          "0%, 100%": { transform: "rotate(0)" },
+          "10%": { transform: "rotate(15deg)" },
+          "20%": { transform: "rotate(-15deg)" },
+          "30%": { transform: "rotate(10deg)" },
+          "40%": { transform: "rotate(-10deg)" },
+          "50%": { transform: "rotate(5deg)" },
+          "60%": { transform: "rotate(-5deg)" },
+          "70%": { transform: "rotate(0)" },
+        },
+      },
+      animation: {
+        ring: "ring 1s infinite",
+      },
       screens: {
         sm: "640px",
         md: "768px",
