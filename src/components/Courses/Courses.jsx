@@ -14,7 +14,7 @@ const Courses = () => {
         />
       </Helmet>
       <div className="dark:bg-gray-600">
-        <Cirriculam/>
+        <Cirriculam />
         <div className="container mx-auto px-4 py-8 dark:bg-gray-600 dark:text-white">
           <div className="bg-gray-100 dark:bg-black p-6 rounded-lg shadow-lg mt-8">
             <h2 className="text-2xl font-bold mb-4">Perks of Joining</h2>

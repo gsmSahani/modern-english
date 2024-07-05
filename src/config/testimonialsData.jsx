@@ -1,4 +1,4 @@
-import gautam from "../assets/image/gautam-testimonials updated.webp";
+
 import tejash from "../assets/image/testimonials/Tejash Patel.webp";
 import deep from "../assets/image/testimonials/Deep Bhanushali.webp";
 import khushi from "../assets/image/testimonials/Khushi Bhandari.webp";
@@ -7,13 +7,6 @@ import sagar from "../assets/image/testimonials/sagar.webp";
 import krisha from "../assets/image/testimonials/Krisha Patel.webp";
 import preyash from "../assets/image/testimonials/Preyash Patel.webp";
 const testimonialsData = [
-  {
-    name: "Gautam Sahani",
-    feedback:
-      "It was amazing with this classes ma'am with both of the language you thaught english and gujarati a good part about gujarati was it was free for me Thank You soo much Ma'am",
-    image: gautam,
-    rating: 5,
-  },
   {
     name: "Tejash Patel",
     feedback:

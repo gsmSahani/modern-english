@@ -40,13 +40,12 @@ const CourseCards = ({
         <div className="mt-4">
           <p className="font-semibold my-3">Topics Included:</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-gray-500">
-          {commonTopicsMessage && (
-            <div className=" p-3 rounded-lg text-center font-medium bg-green-700 text-black">
-              {commonTopicsMessage}
-            </div>
-          )}
+            {commonTopicsMessage && (
+              <div className=" p-3 rounded-lg text-center font-medium bg-green-700 text-black">
+                {commonTopicsMessage}
+              </div>
+            )}
             {topics.map((topic, index) => (
-              
               <div
                 key={index}
                 className={`p-3 rounded-lg text-center font-medium ${
@@ -57,7 +56,6 @@ const CourseCards = ({
               </div>
             ))}
           </div>
-          
         </div>
 
         <div className="mt-8 flex justify-center">

@@ -18,7 +18,9 @@ const AdvanceCourse = () => {
             fees="8000"
             topics={uniqueTopics}
             commonTopicsMessage={commonTopicsMessage}
-            bgColorTopics={bgColorTopics} /* Specify your background colors if needed */
+            bgColorTopics={
+              bgColorTopics
+            } /* Specify your background colors if needed */
           />
         </div>
       </div>
