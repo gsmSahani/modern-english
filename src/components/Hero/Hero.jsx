@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Homepage from "../../assets/image/hero students.webp";
+import Homepage from "/assets/image/hero_image.webp";
 import { FaUserPlus } from "react-icons/fa";
 import ThemeContext from "../../helper/ThemeContext";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaPhone } from "react-icons/fa";
-import Logo from "../../assets/image/logo_modern_englsih_classes-removebg-preview.png";
+import Logo from "/assets/image/me_logo.png";
 
 const Footer = () => {
   const SocialLink = ({ href, icon, label }) => {

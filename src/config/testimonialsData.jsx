@@ -1,11 +1,10 @@
-
-import tejash from "../assets/image/testimonials/Tejash Patel.webp";
-import deep from "../assets/image/testimonials/Deep Bhanushali.webp";
-import khushi from "../assets/image/testimonials/Khushi Bhandari.webp";
-import shivani from "../assets/image/testimonials/Shivani Bhanushali.webp";
-import sagar from "../assets/image/testimonials/sagar.webp";
-import krisha from "../assets/image/testimonials/Krisha Patel.webp";
-import preyash from "../assets/image/testimonials/Preyash Patel.webp";
+import tejash from "/assets/image/testimonials/Tejash_Patel.webp";
+import deep from "/assets/image/testimonials/Deep_Bhanushali.webp";
+import khushi from "/assets/image/testimonials/Khushi_Bhandari.webp";
+import shivani from "/assets/image/testimonials/Shivani_Bhanushali.webp";
+import sagar from "/assets/image/testimonials/sagar.webp";
+import krisha from "/assets/image/testimonials/Krisha_Patel.webp";
+import preyash from "/assets/image/testimonials/Preyash_Patel.webp";
 const testimonialsData = [
   {
     name: "Tejash Patel",
@@ -19,19 +18,17 @@ const testimonialsData = [
     feedback:
       "It was my best experience ever in this classes with amazing environment",
     image: deep,
-    rating: 5 ,
+    rating: 5,
   },
   {
     name: "Khushi J. Bhandari",
-    feedback:
-      "Very good experience in Modern English class. ",
+    feedback: "Very good experience in Modern English class. ",
     image: khushi,
     rating: 5,
   },
   {
     name: "Sagarkumar Prafulbhi Tandel ",
-    feedback:
-      "The way of teaching is awesome and loved it the teaching method",
+    feedback: "The way of teaching is awesome and loved it the teaching method",
     image: sagar,
     rating: 5,
   },
@@ -51,8 +48,7 @@ const testimonialsData = [
   },
   {
     name: "Patel Preyash Satishbhai ",
-    feedback:
-      "Good 👍",
+    feedback: "Good 👍",
     image: preyash,
     rating: 5,
   },

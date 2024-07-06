@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import DarkMode from "./DarkMode";
-import Logo from "../../assets/image/logo_modern_englsih_classes-removebg-preview.png";
+import Logo from "/assets/image/me_logo.png";
 import ThemeContext from "../../helper/ThemeContext";
 
 const Navbar = () => {
