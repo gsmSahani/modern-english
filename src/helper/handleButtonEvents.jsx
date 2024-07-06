@@ -14,13 +14,14 @@ const sendWhatsAppMessage = (phoneNumber, message) => {
 };
 
 const handleWhatsAppMessage = () => {
-  const phoneNumber = process.env.REACT_APP_WHATSAPP_NUMBER || "919978764266";
+  const phoneNumber = process.env.REACT_APP_WHATSAPP_NUMBER || "918130608010";
   const message = "Hello! I'm interested in your English classes.";
   sendWhatsAppMessage(phoneNumber, message);
 };
 
 const handleEnrollNow = () => {
-  const googleFormUrl = "https://forms.gle/JEaF17GSPzu1bnXcA";
+  const googleFormUrl =
+    "https://docs.google.com/forms/d/10W_JoVCEeyOBKd8VLc9b2amKDNK3hcaj9r80p8u3hqY/edit";
   window.open(googleFormUrl, "_blank");
 };
 

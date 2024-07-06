@@ -85,7 +85,7 @@ const Testimonials = () => {
                       <img
                         src={testimonial.image.replace(/\.jpg|\.png/, ".webp")}
                         alt={testimonial.name}
-                        className="w-24 h-24 rounded-full mb-4 object-cover"
+                        className="w-28 h-28 rounded-full mb-4 object-cover"
                         style={{ width: "150px", height: "150px" }}
                       />
                     </LazyLoad>
@@ -93,7 +93,7 @@ const Testimonials = () => {
                       {testimonial.name}
                     </h3>
                     {renderStars(testimonial.rating)}
-                    <p className="text-gray-600 overflow-hidden overflow-ellipsis max-h-32">
+                    <p className="text-gray-600 max-h-32 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-500">
                       {truncateText(testimonial.feedback, 50)}
                     </p>
                   </div>
