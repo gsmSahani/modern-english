@@ -14,7 +14,7 @@ const sendWhatsAppMessage = (phoneNumber, message) => {
 };
 
 const handleWhatsAppMessage = () => {
-  const phoneNumber = process.env.REACT_APP_WHATSAPP_NUMBER || "918130608010";
+  const phoneNumber = process.env.REACT_APP_WHATSAPP_NUMBER || "918160308010";
   const message = "Hello! I'm interested in your English classes.";
   sendWhatsAppMessage(phoneNumber, message);
 };
