@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
         <div className="flex mx-auto mt-1 ">
           <FaPhone className="text-xl text-blue-600 animate-ring" />
-          <span className="ml-2 pb-4">9978764266</span>
+          <span className="ml-2 pb-4">9978764266 </span>  ,  <span className="ml-2 pb-4"> 8160308010</span>
         </div>
       </div>
     </footer>
